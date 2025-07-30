@@ -1,0 +1,101 @@
+import { StyleSheet } from 'react-native';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
+const styles = StyleSheet.create({
+    container: {
+      alignItems: 'center',
+      marginTop:hp('1%'),
+    },
+    quantityContainer: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      width: '100%',
+    },
+    quantityLabel: {
+      color:'#686868',
+      fontSize: 14,
+      fontWeight: '400',
+      lineHeight:15.6,
+    },
+    quantityControls: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      borderColor: '#FF4500',
+    },
+    button: {
+        backgroundColor: '#FEF2EE',
+        marginHorizontal: 10,
+        borderRadius: 4,
+        borderColor: '#FF4500',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        height: 36,
+        width: 48,
+    },
+    buttonText: {
+      fontSize: 28,
+      color: '#F15927',
+    },
+    totalValueContainer:{
+      maxWidth:1000,
+   },
+    totalLabel: {
+        color:'#686868',
+        fontSize: 14,
+        fontWeight: '400',
+        lineHeight:15.6,
+    },
+    totalValue: {
+      color:'#686868',
+      fontSize: 16,
+      fontWeight: '500',
+      lineHeight:18,
+      letterSpacing:0.09,
+    },
+    quantityValue: {
+      fontSize: 16,
+      paddingHorizontal:5,
+      textAlign: 'center',
+      color: 'black',
+      borderColor: '#F15927',
+      alignItems:'center',
+      justifyContent:'center',
+      borderWidth:1,
+      borderRadius:4,
+      fontWeight:'500',
+      width:60,
+      height:36,
+      padding:1,
+    },
+    addToCartButton: {
+      backgroundColor: '#F15927',
+      width:wp('78%'),
+      height:hp('5.5%'),
+      borderRadius: 5,
+      justifyContent:'center',
+      alignItems: 'center',
+      alignContent:'flex-start',
+      elevation: 5,
+    },
+    addToCartText: {
+      color: '#FFF',
+      fontSize: 16,
+      width:105,
+      height:26,
+      fontWeight: '600',
+      lineHeight:26,
+      letterSpacing:0.21,
+    },
+    addToCartContainer:{
+        marginTop:20,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        width: '100%',
+        paddingRight:20,
+    },
+  });
+  export default styles;

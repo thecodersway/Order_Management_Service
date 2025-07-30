@@ -1,0 +1,16 @@
+import * as React from "react";
+import Svg, { Path } from "react-native-svg";
+const TrueCheckIcon = () => (
+  <Svg
+    width={18}
+    height={19}
+    viewBox="0 0 18 19"
+    fill="none"
+  >
+    <Path
+      d="M16 0.5H2C0.89 0.5 0 1.4 0 2.5V16.5C0 17.6 0.89 18.5 2 18.5H16C17.11 18.5 18 17.6 18 16.5V2.5C18 1.4 17.11 0.5 16 0.5ZM7 14.5L2 9.5L3.41 8.09L7 11.67L14.59 4.08L16 5.5L7 14.5Z"
+      fill="#F15927"
+    />
+  </Svg>
+);
+export default TrueCheckIcon;
