@@ -1,2 +1,2 @@
-# DATABASE_URL: "user=postgres dbname=oms_db password=12345 host=localhost sslmode=disable"
-DATABASE_URL: "user=postgres dbname=oms_db password=12345 host=host.docker.internal sslmode=disable"
+DATABASE_URL: "user=postgres dbname=oms_db password=12345 host=localhost sslmode=disable"
+# DATABASE_URL: "user=postgres dbname=oms_db password=12345 host=host.docker.internal sslmode=disable"
